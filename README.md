@@ -133,11 +133,6 @@ dotnet test
 Contributions welcome!
 Open a PR or issue and follow the clean coding principles of .NET + React projects.
 
----
-
-## License
-
-MIT License © 2025 SentinelVault Contributors
 
 ---
 
