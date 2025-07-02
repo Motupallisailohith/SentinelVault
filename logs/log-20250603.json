@@ -1,0 +1,205 @@
+2025-06-03 03:13:06.451 -04:00 [DBG] Hosting starting
+2025-06-03 03:13:06.526 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:13:06.532 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:13:06.536 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:13:06.537 -04:00 [DBG] Hosting started
+2025-06-03 03:13:06.636 -04:00 [DBG] Hosting stopping
+2025-06-03 03:13:06.639 -04:00 [INF] Application is shutting down...
+2025-06-03 03:13:06.640 -04:00 [DBG] Hosting stopped
+2025-06-03 03:19:39.711 -04:00 [DBG] Hosting starting
+2025-06-03 03:19:39.792 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:19:39.809 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:19:39.814 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:19:39.817 -04:00 [DBG] Hosting started
+2025-06-03 03:19:39.922 -04:00 [DBG] Hosting stopping
+2025-06-03 03:19:39.924 -04:00 [INF] Application is shutting down...
+2025-06-03 03:19:39.925 -04:00 [DBG] Hosting stopped
+2025-06-03 03:20:48.772 -04:00 [DBG] Hosting starting
+2025-06-03 03:20:48.846 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:20:48.856 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:20:48.861 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:20:48.865 -04:00 [DBG] Hosting started
+2025-06-03 03:20:48.965 -04:00 [DBG] Hosting stopping
+2025-06-03 03:20:48.970 -04:00 [INF] Application is shutting down...
+2025-06-03 03:20:48.972 -04:00 [DBG] Hosting stopped
+2025-06-03 03:21:58.402 -04:00 [DBG] Hosting starting
+2025-06-03 03:21:58.469 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:21:58.475 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:21:58.478 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:21:58.479 -04:00 [DBG] Hosting started
+2025-06-03 03:21:58.528 -04:00 [INF] Starting "Full" backup of test…
+2025-06-03 03:21:58.535 -04:00 [INF] Running full mysqldump for test
+2025-06-03 03:21:59.293 -04:00 [INF] Backup finished: .\backups\test_20250603_072159.zst (765 ms)
+2025-06-03 03:21:59.307 -04:00 [DBG] Hosting stopping
+2025-06-03 03:21:59.309 -04:00 [INF] Application is shutting down...
+2025-06-03 03:21:59.312 -04:00 [DBG] Hosting stopped
+2025-06-03 03:34:15.291 -04:00 [DBG] Hosting starting
+2025-06-03 03:34:15.378 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:34:15.386 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:34:15.391 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:34:15.394 -04:00 [DBG] Hosting started
+2025-06-03 03:34:15.452 -04:00 [INF] Starting "Full" backup of test…
+2025-06-03 03:34:15.462 -04:00 [INF] Running full mysqldump for test
+2025-06-03 03:34:15.636 -04:00 [ERR] Backup failed
+System.InvalidOperationException: SHOW MASTER STATUS failed (1): mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MASTER STATUS' at line 1
+
+   at DbBackup.Adapters.MySqlAdapter.QueryCurrentBinlogPositionAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 171
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 71
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 84
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 33
+2025-06-03 03:34:15.693 -04:00 [DBG] Hosting stopping
+2025-06-03 03:34:15.700 -04:00 [INF] Application is shutting down...
+2025-06-03 03:34:15.710 -04:00 [DBG] Hosting stopped
+2025-06-03 03:38:42.533 -04:00 [DBG] Hosting starting
+2025-06-03 03:38:42.567 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:38:42.570 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:38:42.571 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:38:42.572 -04:00 [DBG] Hosting started
+2025-06-03 03:38:42.593 -04:00 [INF] Starting "Full" backup of test…
+2025-06-03 03:38:42.598 -04:00 [INF] Running full mysqldump for test
+2025-06-03 03:38:42.695 -04:00 [ERR] Backup failed
+System.InvalidOperationException: SHOW MASTER STATUS failed (1): mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MASTER STATUS' at line 1
+
+   at DbBackup.Adapters.MySqlAdapter.QueryCurrentBinlogPositionAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 171
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 71
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 84
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 33
+2025-06-03 03:38:42.726 -04:00 [DBG] Hosting stopping
+2025-06-03 03:38:42.727 -04:00 [INF] Application is shutting down...
+2025-06-03 03:38:42.728 -04:00 [DBG] Hosting stopped
+2025-06-03 03:41:37.198 -04:00 [DBG] Hosting starting
+2025-06-03 03:41:37.231 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:41:37.234 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:41:37.236 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:41:37.237 -04:00 [DBG] Hosting started
+2025-06-03 03:41:37.282 -04:00 [DBG] Hosting stopping
+2025-06-03 03:41:37.284 -04:00 [INF] Application is shutting down...
+2025-06-03 03:41:37.284 -04:00 [DBG] Hosting stopped
+2025-06-03 03:42:38.219 -04:00 [DBG] Hosting starting
+2025-06-03 03:42:38.252 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:42:38.255 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:42:38.256 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:42:38.257 -04:00 [DBG] Hosting started
+2025-06-03 03:42:38.276 -04:00 [INF] Starting "Full" backup of test…
+2025-06-03 03:42:38.279 -04:00 [INF] Running full mysqldump for test
+2025-06-03 03:42:38.367 -04:00 [ERR] Backup failed
+System.InvalidOperationException: SHOW MASTER STATUS failed (1): mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MASTER STATUS' at line 1
+
+   at DbBackup.Adapters.MySqlAdapter.QueryCurrentBinlogPositionAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 174
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 71
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 84
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 33
+2025-06-03 03:42:38.393 -04:00 [DBG] Hosting stopping
+2025-06-03 03:42:38.395 -04:00 [INF] Application is shutting down...
+2025-06-03 03:42:38.396 -04:00 [DBG] Hosting stopped
+2025-06-03 03:49:01.192 -04:00 [DBG] Hosting starting
+2025-06-03 03:49:01.224 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 03:49:01.227 -04:00 [INF] Hosting environment: Production
+2025-06-03 03:49:01.228 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 03:49:01.229 -04:00 [DBG] Hosting started
+2025-06-03 03:49:01.250 -04:00 [INF] Starting "Full" backup of test…
+2025-06-03 03:49:01.255 -04:00 [INF] Running full mysqldump for test
+2025-06-03 03:49:01.328 -04:00 [ERR] Backup failed
+System.InvalidOperationException: SHOW MASTER STATUS failed (1): mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MASTER STATUS' at line 1
+
+   at DbBackup.Adapters.MySqlAdapter.QueryCurrentBinlogPositionAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 172
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 71
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 84
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 33
+2025-06-03 03:49:01.360 -04:00 [DBG] Hosting stopping
+2025-06-03 03:49:01.361 -04:00 [INF] Application is shutting down...
+2025-06-03 03:49:01.362 -04:00 [DBG] Hosting stopped
+2025-06-03 17:45:12.925 -04:00 [DBG] Hosting starting
+2025-06-03 17:45:13.008 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 17:45:13.018 -04:00 [INF] Hosting environment: Production
+2025-06-03 17:45:13.021 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 17:45:13.024 -04:00 [DBG] Hosting started
+2025-06-03 17:45:13.120 -04:00 [DBG] Hosting stopping
+2025-06-03 17:45:13.122 -04:00 [INF] Application is shutting down...
+2025-06-03 17:45:13.124 -04:00 [DBG] Hosting stopped
+2025-06-03 17:45:49.719 -04:00 [DBG] Hosting starting
+2025-06-03 17:45:49.770 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 17:45:49.777 -04:00 [INF] Hosting environment: Production
+2025-06-03 17:45:49.780 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 17:45:49.783 -04:00 [DBG] Hosting started
+2025-06-03 17:45:49.822 -04:00 [INF] Starting "Full" backup of test…
+2025-06-03 17:45:49.831 -04:00 [INF] Running full mysqldump for test
+2025-06-03 17:45:54.218 -04:00 [ERR] Backup failed
+System.InvalidOperationException: SHOW MASTER STATUS failed (1): mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MASTER STATUS' at line 1
+
+   at DbBackup.Adapters.MySqlAdapter.QueryCurrentBinlogPositionAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 172
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 71
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 84
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 33
+2025-06-03 17:45:54.282 -04:00 [DBG] Hosting stopping
+2025-06-03 17:45:54.285 -04:00 [INF] Application is shutting down...
+2025-06-03 17:45:54.286 -04:00 [DBG] Hosting stopped
+2025-06-03 19:54:30.548 -04:00 [DBG] Hosting starting
+2025-06-03 19:54:30.614 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 19:54:30.622 -04:00 [INF] Hosting environment: Production
+2025-06-03 19:54:30.626 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 19:54:30.628 -04:00 [DBG] Hosting started
+2025-06-03 19:54:30.672 -04:00 [INF] Starting "Full" backup of test…
+2025-06-03 19:54:30.682 -04:00 [INF] Running full mysqldump for test
+2025-06-03 19:54:34.990 -04:00 [ERR] Backup failed
+System.InvalidOperationException: SHOW MASTER STATUS failed (1): mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MASTER STATUS' at line 1
+
+   at DbBackup.Adapters.MySqlAdapter.QueryCurrentBinlogPositionAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 172
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 71
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 84
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 33
+2025-06-03 19:54:35.031 -04:00 [DBG] Hosting stopping
+2025-06-03 19:54:35.034 -04:00 [INF] Application is shutting down...
+2025-06-03 19:54:35.037 -04:00 [DBG] Hosting stopped
+2025-06-03 22:27:24.644 -04:00 [DBG] Hosting starting
+2025-06-03 22:27:24.677 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 22:27:24.681 -04:00 [INF] Hosting environment: Production
+2025-06-03 22:27:24.682 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 22:27:24.682 -04:00 [DBG] Hosting started
+2025-06-03 22:27:24.708 -04:00 [INF] Starting "Full" backup of demo…
+2025-06-03 22:27:24.712 -04:00 [INF] Running full mysqldump for demo
+2025-06-03 22:27:28.856 -04:00 [ERR] Backup failed
+System.InvalidOperationException: SHOW MASTER STATUS failed (1): mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MASTER STATUS' at line 1
+
+   at DbBackup.Adapters.MySqlAdapter.QueryCurrentBinlogPositionAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 172
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 71
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 84
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 33
+2025-06-03 22:27:28.873 -04:00 [DBG] Hosting stopping
+2025-06-03 22:27:28.874 -04:00 [INF] Application is shutting down...
+2025-06-03 22:27:28.875 -04:00 [DBG] Hosting stopped
+2025-06-03 22:30:02.151 -04:00 [DBG] Hosting starting
+2025-06-03 22:30:02.182 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 22:30:02.185 -04:00 [INF] Hosting environment: Production
+2025-06-03 22:30:02.187 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 22:30:02.187 -04:00 [DBG] Hosting started
+2025-06-03 22:30:02.211 -04:00 [INF] Starting "Full" backup of demo…
+2025-06-03 22:30:02.216 -04:00 [INF] Running full mysqldump for demo
+2025-06-03 22:30:06.595 -04:00 [INF] Backup finished: .\backups\demo_20250604_023006_Full.zst (4383 ms)
+2025-06-03 22:30:06.598 -04:00 [DBG] Hosting stopping
+2025-06-03 22:30:06.599 -04:00 [INF] Application is shutting down...
+2025-06-03 22:30:06.600 -04:00 [DBG] Hosting stopped
+2025-06-03 22:40:23.085 -04:00 [DBG] Hosting starting
+2025-06-03 22:40:23.117 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-03 22:40:23.121 -04:00 [INF] Hosting environment: Production
+2025-06-03 22:40:23.124 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-03 22:40:23.125 -04:00 [DBG] Hosting started
+2025-06-03 22:40:23.150 -04:00 [INF] Starting "Incremental" backup of demo…
+2025-06-03 22:40:23.209 -04:00 [INF] Running incremental mysqlbinlog for demo starting at 2807
+2025-06-03 22:40:25.355 -04:00 [ERR] Backup failed
+System.Exception: mysqlbinlog exited 1: mysqlbinlog: [Warning] Using a password on the command line interface can be insecure.
+ERROR: Got error reading packet from server: Could not find first log file name in binary log index file
+
+   at DbBackup.Adapters.MySqlAdapter.DumpIncrementalAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 123
+   at DbBackup.Adapters.MySqlAdapter.DumpIncrementalAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 138
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 33
+2025-06-03 22:40:25.414 -04:00 [DBG] Hosting stopping
+2025-06-03 22:40:25.415 -04:00 [INF] Application is shutting down...
+2025-06-03 22:40:25.416 -04:00 [DBG] Hosting stopped

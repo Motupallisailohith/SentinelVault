@@ -1,0 +1,14 @@
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\bin\Release\net8.0\x64\libzstd.dll
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\bin\Release\net8.0\x86\libzstd.dll
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\bin\Release\net8.0\DbBackup.Core.deps.json
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\bin\Release\net8.0\DbBackup.Core.dll
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\bin\Release\net8.0\DbBackup.Core.pdb
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\DbBackup.Core.csproj.AssemblyReference.cache
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\DbBackup.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\DbBackup.Core.AssemblyInfoInputs.cache
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\DbBackup.Core.AssemblyInfo.cs
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\DbBackup.Core.csproj.CoreCompileInputs.cache
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\DbBackup.Core.dll
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\refint\DbBackup.Core.dll
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\DbBackup.Core.pdb
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\obj\Release\net8.0\ref\DbBackup.Core.dll

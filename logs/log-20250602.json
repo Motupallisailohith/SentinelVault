@@ -1,0 +1,124 @@
+2025-06-02 03:21:49.634 -04:00 [DBG] Hosting starting
+2025-06-02 03:21:49.706 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 03:21:49.715 -04:00 [INF] Hosting environment: Production
+2025-06-02 03:21:49.717 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 03:21:49.719 -04:00 [DBG] Hosting started
+2025-06-02 03:21:49.813 -04:00 [DBG] Hosting stopping
+2025-06-02 03:21:49.818 -04:00 [INF] Application is shutting down...
+2025-06-02 03:21:49.823 -04:00 [DBG] Hosting stopped
+2025-06-02 16:26:32.157 -04:00 [DBG] Hosting starting
+2025-06-02 16:26:32.233 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 16:26:32.243 -04:00 [INF] Hosting environment: Production
+2025-06-02 16:26:32.247 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 16:26:32.249 -04:00 [DBG] Hosting started
+2025-06-02 16:26:32.331 -04:00 [DBG] Hosting stopping
+2025-06-02 16:26:32.334 -04:00 [INF] Application is shutting down...
+2025-06-02 16:26:32.335 -04:00 [DBG] Hosting stopped
+2025-06-02 16:28:03.289 -04:00 [DBG] Hosting starting
+2025-06-02 16:28:03.354 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 16:28:03.360 -04:00 [INF] Hosting environment: Production
+2025-06-02 16:28:03.364 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 16:28:03.366 -04:00 [DBG] Hosting started
+2025-06-02 16:28:03.465 -04:00 [DBG] Hosting stopping
+2025-06-02 16:28:03.469 -04:00 [INF] Application is shutting down...
+2025-06-02 16:28:03.473 -04:00 [DBG] Hosting stopped
+2025-06-02 16:51:43.579 -04:00 [DBG] Hosting starting
+2025-06-02 16:51:43.641 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 16:51:43.649 -04:00 [INF] Hosting environment: Production
+2025-06-02 16:51:43.653 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 16:51:43.655 -04:00 [DBG] Hosting started
+2025-06-02 16:51:43.692 -04:00 [INF] Starting "Full" backup of test...
+2025-06-02 16:51:43.707 -04:00 [ERR] Backup failed
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'mysqldump' with working directory 'C:\Users\sailo\db-backup-cli-live\SentinelVault'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at DbBackup.Adapters.MySqlAdapter.CreateBackupAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 31
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 28
+2025-06-02 16:51:43.746 -04:00 [DBG] Hosting stopping
+2025-06-02 16:51:43.748 -04:00 [INF] Application is shutting down...
+2025-06-02 16:51:43.750 -04:00 [DBG] Hosting stopped
+2025-06-02 17:58:37.479 -04:00 [DBG] Hosting starting
+2025-06-02 17:58:37.546 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 17:58:37.553 -04:00 [INF] Hosting environment: Production
+2025-06-02 17:58:37.557 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 17:58:37.559 -04:00 [DBG] Hosting started
+2025-06-02 17:58:37.599 -04:00 [INF] Starting "Full" backup of test...
+2025-06-02 17:58:37.615 -04:00 [ERR] Backup failed
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'mysqldump' with working directory 'C:\Users\sailo\db-backup-cli-live\SentinelVault'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at DbBackup.Adapters.MySqlAdapter.CreateBackupAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 31
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 28
+2025-06-02 17:58:37.641 -04:00 [DBG] Hosting stopping
+2025-06-02 17:58:37.644 -04:00 [INF] Application is shutting down...
+2025-06-02 17:58:37.649 -04:00 [DBG] Hosting stopped
+2025-06-02 18:04:38.255 -04:00 [DBG] Hosting starting
+2025-06-02 18:04:38.316 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 18:04:38.323 -04:00 [INF] Hosting environment: Production
+2025-06-02 18:04:38.326 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 18:04:38.326 -04:00 [DBG] Hosting started
+2025-06-02 18:04:38.365 -04:00 [INF] Starting "Full" backup of test...
+2025-06-02 18:04:38.376 -04:00 [ERR] Backup failed
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'mysqldump' with working directory 'C:\Users\sailo\db-backup-cli-live\SentinelVault'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at DbBackup.Adapters.MySqlAdapter.CreateBackupAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 31
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 28
+2025-06-02 18:04:38.418 -04:00 [DBG] Hosting stopping
+2025-06-02 18:04:38.421 -04:00 [INF] Application is shutting down...
+2025-06-02 18:04:38.424 -04:00 [DBG] Hosting stopped
+2025-06-02 18:12:29.654 -04:00 [DBG] Hosting starting
+2025-06-02 18:12:29.721 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 18:12:29.728 -04:00 [INF] Hosting environment: Production
+2025-06-02 18:12:29.731 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 18:12:29.732 -04:00 [DBG] Hosting started
+2025-06-02 18:12:29.773 -04:00 [INF] Starting "Full" backup of test...
+2025-06-02 18:12:29.788 -04:00 [ERR] Backup failed
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'mysqldump' with working directory 'C:\Users\sailo\db-backup-cli-live\SentinelVault'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at DbBackup.Adapters.MySqlAdapter.CreateBackupAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 31
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 28
+2025-06-02 18:12:29.804 -04:00 [DBG] Hosting stopping
+2025-06-02 18:12:29.808 -04:00 [INF] Application is shutting down...
+2025-06-02 18:12:29.809 -04:00 [DBG] Hosting stopped
+2025-06-02 18:15:00.159 -04:00 [DBG] Hosting starting
+2025-06-02 18:15:00.229 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 18:15:00.235 -04:00 [INF] Hosting environment: Production
+2025-06-02 18:15:00.238 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 18:15:00.240 -04:00 [DBG] Hosting started
+2025-06-02 18:15:00.288 -04:00 [INF] Starting "Full" backup of test...
+2025-06-02 18:15:00.451 -04:00 [ERR] Backup failed
+System.Exception: mysqldump error (2): mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Got error: 1049: Unknown database 'test' when selecting the database
+
+   at DbBackup.Adapters.MySqlAdapter.CreateBackupAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 39
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 28
+2025-06-02 18:15:00.477 -04:00 [DBG] Hosting stopping
+2025-06-02 18:15:00.481 -04:00 [INF] Application is shutting down...
+2025-06-02 18:15:00.484 -04:00 [DBG] Hosting stopped
+2025-06-02 18:15:06.856 -04:00 [DBG] Hosting starting
+2025-06-02 18:15:06.925 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 18:15:06.931 -04:00 [INF] Hosting environment: Production
+2025-06-02 18:15:06.934 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 18:15:06.936 -04:00 [DBG] Hosting started
+2025-06-02 18:15:06.980 -04:00 [INF] Starting "Full" backup of test...
+2025-06-02 18:15:07.082 -04:00 [ERR] Backup failed
+System.Exception: mysqldump error (2): mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Got error: 1049: Unknown database 'test' when selecting the database
+
+   at DbBackup.Adapters.MySqlAdapter.CreateBackupAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 39
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 28
+2025-06-02 18:15:07.102 -04:00 [DBG] Hosting stopping
+2025-06-02 18:15:07.105 -04:00 [INF] Application is shutting down...
+2025-06-02 18:15:07.108 -04:00 [DBG] Hosting stopped
+2025-06-02 18:17:52.560 -04:00 [DBG] Hosting starting
+2025-06-02 18:17:52.622 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 18:17:52.628 -04:00 [INF] Hosting environment: Production
+2025-06-02 18:17:52.632 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-02 18:17:52.634 -04:00 [DBG] Hosting started
+2025-06-02 18:17:52.671 -04:00 [INF] Starting "Full" backup of test...
+2025-06-02 18:17:53.134 -04:00 [INF] Backup finished: .\backups\test_20250602_221753.zst (463 ms)
+2025-06-02 18:17:53.141 -04:00 [DBG] Hosting stopping
+2025-06-02 18:17:53.144 -04:00 [INF] Application is shutting down...
+2025-06-02 18:17:53.145 -04:00 [DBG] Hosting stopped

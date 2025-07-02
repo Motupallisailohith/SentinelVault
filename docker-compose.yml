@@ -1,0 +1,51 @@
+version: "3.9"
+
+services:
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: test
+    ports: ["3306:3306"]
+    volumes: [mysql_data:/var/lib/mysql]
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: demo
+    ports: ["5432:5432"]
+    volumes: [pg_data:/var/lib/postgresql/data]
+
+  webapi:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.webapi
+    # 👉 tell Kestrel to listen on port 80 in the container
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://0.0.0.0:80
+      OPENAI__APIKEY:    ${OPENAI__APIKEY}
+      SLACK__WEBHOOKURL: ${SLACK__WEBHOOKURL}
+      S3__ENABLED:       ${S3__ENABLED:-false}
+      S3__BUCKET:        ${S3__BUCKET:-my-db-backups}
+    ports: ["5000:80"]
+    depends_on: [mysql, postgres]
+
+  cli:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.cli
+    depends_on: [mysql, postgres]
+    volumes: ["./backups:/app/backups"]
+    # CLI just runs, prints, and exits – that’s fine
+    command: ["echo", "CLI image built"]
+    environment:
+      OPENAI__APIKEY:    ${OPENAI__APIKEY}
+      SLACK__WEBHOOKURL: ${SLACK__WEBHOOKURL}
+      S3__ENABLED:       ${S3__ENABLED:-false}
+      S3__BUCKET:        ${S3__BUCKET:-my-db-backups}
+
+volumes:
+  mysql_data:
+  pg_data:

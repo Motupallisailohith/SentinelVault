@@ -1,0 +1,6 @@
+@DbBackup.WebApi_HostAddress = http://localhost:5266
+
+GET {{DbBackup.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

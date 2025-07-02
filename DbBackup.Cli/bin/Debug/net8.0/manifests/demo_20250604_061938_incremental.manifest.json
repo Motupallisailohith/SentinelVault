@@ -1,0 +1,9 @@
+{
+  "Engine": "mysql",
+  "Database": "demo",
+  "Type": 1,
+  "UtcTimestamp": "2025-06-04T06:19:38.4593628Z",
+  "BinlogStart": 3106,
+  "BinlogEnd": 0,
+  "ParentFile": "demo_20250604_061433_full.zst"
+}

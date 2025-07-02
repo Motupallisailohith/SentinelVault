@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "y1U2EAGr587j7ybMwBEV5wmrcTkwXE+osVQjzGn3eMQ=",
+  "Source": "DbBackup.WebApi",
+  "BasePath": "_content/DbBackup.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

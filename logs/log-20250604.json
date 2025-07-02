@@ -1,0 +1,30 @@
+2025-06-04 02:12:00.707 -04:00 [DBG] Hosting starting
+2025-06-04 02:12:00.778 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-04 02:12:00.790 -04:00 [INF] Hosting environment: Production
+2025-06-04 02:12:00.794 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-04 02:12:00.800 -04:00 [DBG] Hosting started
+2025-06-04 02:12:00.895 -04:00 [DBG] Hosting stopping
+2025-06-04 02:12:00.900 -04:00 [INF] Application is shutting down...
+2025-06-04 02:12:00.904 -04:00 [DBG] Hosting stopped
+2025-06-04 02:14:28.488 -04:00 [DBG] Hosting starting
+2025-06-04 02:14:28.557 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-04 02:14:28.564 -04:00 [INF] Hosting environment: Production
+2025-06-04 02:14:28.568 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-04 02:14:28.570 -04:00 [DBG] Hosting started
+2025-06-04 02:14:28.618 -04:00 [INF] Starting "Full" backup of demo…
+2025-06-04 02:14:28.627 -04:00 [INF] Running full mysqldump for demo
+2025-06-04 02:14:33.288 -04:00 [INF] Backup finished: ./backups\demo_20250604_061433_Full.zst (4670 ms)
+2025-06-04 02:14:33.295 -04:00 [DBG] Hosting stopping
+2025-06-04 02:14:33.298 -04:00 [INF] Application is shutting down...
+2025-06-04 02:14:33.299 -04:00 [DBG] Hosting stopped
+2025-06-04 02:19:33.973 -04:00 [DBG] Hosting starting
+2025-06-04 02:19:34.037 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-04 02:19:34.045 -04:00 [INF] Hosting environment: Production
+2025-06-04 02:19:34.048 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-04 02:19:34.049 -04:00 [DBG] Hosting started
+2025-06-04 02:19:34.092 -04:00 [INF] Starting "Incremental" backup of demo…
+2025-06-04 02:19:34.214 -04:00 [INF] Running incremental mysqlbinlog for demo starting at 3106
+2025-06-04 02:19:38.508 -04:00 [INF] Backup finished: ./backups\demo_20250604_061938_Incremental.zst (4416 ms)
+2025-06-04 02:19:38.514 -04:00 [DBG] Hosting stopping
+2025-06-04 02:19:38.518 -04:00 [INF] Application is shutting down...
+2025-06-04 02:19:38.519 -04:00 [DBG] Hosting stopped

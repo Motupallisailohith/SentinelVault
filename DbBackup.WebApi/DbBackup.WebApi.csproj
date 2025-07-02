@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>f9ffdf27-0f4d-4d5a-b96d-b956202c4f26</UserSecretsId>
+  </PropertyGroup>
+
+ 
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.5" />
+    <PackageReference Include="System.Text.Json" Version="9.0.5" />
+    <PackageReference Include="OpenAI-DotNet" Version="8.6.4" />
+    <PackageReference Include="Serilog" Version="4.3.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DbBackup.Core\DbBackup.Core.csproj" />
+    <ProjectReference Include="..\DbBackup.Adapters\DbBackup.Adapters.csproj" />
+    <ProjectReference Include="..\DbBackup.Storage\DbBackup.Storage.csproj"  />
+  </ItemGroup>
+</Project>
+
+
+
+

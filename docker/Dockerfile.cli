@@ -1,0 +1,13 @@
+# ---------- build stage ----------
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+COPY DbBackup.Cli/       DbBackup.Cli/
+COPY DbBackup.Core/      DbBackup.Core/
+COPY DbBackup.Adapters/  DbBackup.Adapters/
+COPY DbBackup.Storage/   DbBackup.Storage/
+
+# restore & publish **from inside the project directory**
+WORKDIR /src/DbBackup.Cli
+RUN dotnet restore
+RUN dotnet publish -c Release -o /app

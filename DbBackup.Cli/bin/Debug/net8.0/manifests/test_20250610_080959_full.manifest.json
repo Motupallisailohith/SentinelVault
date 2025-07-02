@@ -1,0 +1,9 @@
+{
+  "Engine": "mysql",
+  "Database": "test",
+  "Type": 0,
+  "UtcTimestamp": "2025-06-10T08:09:59.4673841Z",
+  "BinlogStart": 4,
+  "BinlogEnd": 3398,
+  "ParentFile": ""
+}

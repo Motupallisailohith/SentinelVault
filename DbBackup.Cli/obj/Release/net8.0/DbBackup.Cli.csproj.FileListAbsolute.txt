@@ -1,0 +1,5 @@
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Cli\obj\Release\net8.0\DbBackup.Cli.csproj.AssemblyReference.cache
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Cli\obj\Release\net8.0\DbBackup.Cli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Cli\obj\Release\net8.0\DbBackup.Cli.AssemblyInfoInputs.cache
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Cli\obj\Release\net8.0\DbBackup.Cli.AssemblyInfo.cs
+C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Cli\obj\Release\net8.0\DbBackup.Cli.csproj.CoreCompileInputs.cache

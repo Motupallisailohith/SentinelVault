@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Cli\\DbBackup.Cli.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Adapters\\DbBackup.Adapters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Adapters\\DbBackup.Adapters.csproj",
+        "projectName": "DbBackup.Adapters",
+        "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Adapters\\DbBackup.Adapters.csproj",
+        "packagesPath": "C:\\Users\\sailo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Adapters\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sailo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj": {
+                "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj"
+              },
+              "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Storage\\DbBackup.Storage.csproj": {
+                "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Storage\\DbBackup.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "ZstdNet": {
+              "target": "Package",
+              "version": "[1.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Cli\\DbBackup.Cli.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Cli\\DbBackup.Cli.csproj",
+        "projectName": "DbBackup.Cli",
+        "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Cli\\DbBackup.Cli.csproj",
+        "packagesPath": "C:\\Users\\sailo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Cli\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sailo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Adapters\\DbBackup.Adapters.csproj": {
+                "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Adapters\\DbBackup.Adapters.csproj"
+              },
+              "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj": {
+                "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj"
+              },
+              "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Storage\\DbBackup.Storage.csproj": {
+                "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Storage\\DbBackup.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Slack": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj",
+        "projectName": "DbBackup.Core",
+        "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj",
+        "packagesPath": "C:\\Users\\sailo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sailo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.5.2, )"
+            },
+            "ZstdNet": {
+              "target": "Package",
+              "version": "[1.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Storage\\DbBackup.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Storage\\DbBackup.Storage.csproj",
+        "projectName": "DbBackup.Storage",
+        "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Storage\\DbBackup.Storage.csproj",
+        "packagesPath": "C:\\Users\\sailo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sailo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj": {
+                "projectPath": "C:\\Users\\sailo\\db-backup-cli-live\\SentinelVault\\DbBackup.Core\\DbBackup.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[4.0.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

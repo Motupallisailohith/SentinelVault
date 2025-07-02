@@ -1,0 +1,23 @@
+# docker/Dockerfile.webapi
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# copy csproj & restore first (build-cache friendly)
+COPY DbBackup.Core/*.csproj         DbBackup.Core/
+COPY DbBackup.Adapters/*.csproj     DbBackup.Adapters/
+COPY DbBackup.Storage/*.csproj      DbBackup.Storage/
+COPY DbBackup.WebApi/*.csproj       DbBackup.WebApi/
+RUN dotnet restore DbBackup.WebApi/DbBackup.WebApi.csproj
+
+# copy the rest and publish
+COPY DbBackup.Core/      DbBackup.Core/
+COPY DbBackup.Adapters/  DbBackup.Adapters/
+COPY DbBackup.Storage/   DbBackup.Storage/
+COPY DbBackup.WebApi/    DbBackup.WebApi/
+RUN dotnet publish DbBackup.WebApi/DbBackup.WebApi.csproj -c Release -o /app
+
+# --- runtime image ---
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+COPY --from=build /app .
+ENTRYPOINT ["dotnet", "DbBackup.WebApi.dll"]

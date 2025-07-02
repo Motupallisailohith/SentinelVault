@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <ProjectReference Include="..\DbBackup.Core\DbBackup.Core.csproj" />
+  <ProjectReference Include="..\DbBackup.Adapters\DbBackup.Adapters.csproj" />
+  <ProjectReference Include="..\DbBackup.Storage\DbBackup.Storage.csproj" />
+  <ProjectReference Include="..\DbBackup.Cli\DbBackup.Cli.csproj" />
+ </ItemGroup>
+ <ItemGroup>
+    <ProjectReference Include="..\DbBackup.Core\DbBackup.Core.csproj" />
+    <ProjectReference Include="..\DbBackup.Storage\DbBackup.Storage.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.5" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="Testcontainers.MySql" Version="4.4.0" />
+    <PackageReference Include="Testcontainers.PostgreSql" Version="4.4.0" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.3" />
+  </ItemGroup>
+
+</Project>

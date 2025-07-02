@@ -1,0 +1,260 @@
+2025-06-10 03:34:05.729 -04:00 [DBG] Hosting starting
+2025-06-10 03:34:05.769 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 03:34:05.775 -04:00 [INF] Hosting environment: Production
+2025-06-10 03:34:05.777 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 03:34:05.778 -04:00 [DBG] Hosting started
+2025-06-10 03:34:05.781 -04:00 [INF] Starting "Full" backup of test (mysql)…
+2025-06-10 03:34:05.784 -04:00 [ERR] Backup failed
+System.NotSupportedException: Engine 'mysql' not supported
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 44
+2025-06-10 03:34:05.805 -04:00 [DBG] Hosting stopping
+2025-06-10 03:34:05.806 -04:00 [INF] Application is shutting down...
+2025-06-10 03:34:05.808 -04:00 [DBG] Hosting stopped
+2025-06-10 03:38:22.153 -04:00 [DBG] Hosting starting
+2025-06-10 03:38:22.193 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 03:38:22.197 -04:00 [INF] Hosting environment: Production
+2025-06-10 03:38:22.198 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 03:38:22.199 -04:00 [DBG] Hosting started
+2025-06-10 03:38:22.202 -04:00 [INF] Starting "Full" backup of test (mysql)…
+2025-06-10 03:38:22.206 -04:00 [ERR] Backup failed
+System.NotSupportedException: Engine 'mysql' not supported
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 44
+2025-06-10 03:38:22.214 -04:00 [DBG] Hosting stopping
+2025-06-10 03:38:22.216 -04:00 [INF] Application is shutting down...
+2025-06-10 03:38:22.216 -04:00 [DBG] Hosting stopped
+2025-06-10 03:56:20.959 -04:00 [DBG] Hosting starting
+2025-06-10 03:56:21.002 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 03:56:21.008 -04:00 [INF] Hosting environment: Production
+2025-06-10 03:56:21.009 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 03:56:21.010 -04:00 [DBG] Hosting started
+2025-06-10 04:08:37.453 -04:00 [DBG] Hosting starting
+2025-06-10 04:08:37.490 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 04:08:37.496 -04:00 [INF] Hosting environment: Production
+2025-06-10 04:08:37.498 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 04:08:37.500 -04:00 [DBG] Hosting started
+2025-06-10 04:08:37.504 -04:00 [INF] Starting "Full" backup of test (mysql)…
+2025-06-10 04:08:37.508 -04:00 [INF] Running full mysqldump for test
+2025-06-10 04:08:39.671 -04:00 [ERR] Backup failed
+System.Exception: mysqldump exited 2: mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Got error: 1045: Access denied for user 'badUser'@'localhost' (using password: YES) when trying to connect
+
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 72
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 89
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 04:08:39.711 -04:00 [DBG] Hosting stopping
+2025-06-10 04:08:39.712 -04:00 [INF] Application is shutting down...
+2025-06-10 04:08:39.713 -04:00 [DBG] Hosting stopped
+2025-06-10 04:09:33.057 -04:00 [DBG] Hosting starting
+2025-06-10 04:09:33.097 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 04:09:33.101 -04:00 [INF] Hosting environment: Production
+2025-06-10 04:09:33.102 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 04:09:33.102 -04:00 [DBG] Hosting started
+2025-06-10 04:09:33.107 -04:00 [INF] Starting "Full" backup of test (mysql)…
+2025-06-10 04:09:33.113 -04:00 [INF] Running full mysqldump for test
+2025-06-10 04:09:35.200 -04:00 [ERR] Backup failed
+System.Exception: mysqldump exited 2: mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
+
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 72
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 89
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 04:09:35.212 -04:00 [DBG] Hosting stopping
+2025-06-10 04:09:35.213 -04:00 [INF] Application is shutting down...
+2025-06-10 04:09:35.214 -04:00 [DBG] Hosting stopped
+2025-06-10 04:09:53.041 -04:00 [DBG] Hosting starting
+2025-06-10 04:09:53.082 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 04:09:53.085 -04:00 [INF] Hosting environment: Production
+2025-06-10 04:09:53.086 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 04:09:53.087 -04:00 [DBG] Hosting started
+2025-06-10 04:09:53.091 -04:00 [INF] Starting "Full" backup of test (mysql)…
+2025-06-10 04:09:53.095 -04:00 [INF] Running full mysqldump for test
+2025-06-10 04:09:59.723 -04:00 [INF] Backup finished: ./backups\test_20250610_080959_Full.zst (6632 ms)
+2025-06-10 04:09:59.725 -04:00 [DBG] Hosting stopping
+2025-06-10 04:09:59.726 -04:00 [INF] Application is shutting down...
+2025-06-10 04:09:59.727 -04:00 [DBG] Hosting stopped
+2025-06-10 04:16:47.225 -04:00 [DBG] Hosting starting
+2025-06-10 04:16:47.266 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 04:16:47.269 -04:00 [INF] Hosting environment: Production
+2025-06-10 04:16:47.270 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 04:16:47.271 -04:00 [DBG] Hosting started
+2025-06-10 04:16:47.275 -04:00 [INF] Starting "Full" backup of test (mysql)…
+2025-06-10 04:16:47.279 -04:00 [INF] Running full mysqldump for test
+2025-06-10 04:16:49.351 -04:00 [ERR] Backup failed
+System.Exception: mysqldump exited 2: mysqldump: [Warning] Using a password on the command line interface can be insecure.
+mysqldump: Got error: 1045: Access denied for user 'badUser'@'localhost' (using password: YES) when trying to connect
+
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 72
+   at DbBackup.Adapters.MySqlAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\MySqlAdapter.cs:line 89
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 04:16:49.361 -04:00 [DBG] Hosting stopping
+2025-06-10 04:16:49.362 -04:00 [INF] Application is shutting down...
+2025-06-10 04:16:49.363 -04:00 [DBG] Hosting stopped
+2025-06-10 21:25:27.438 -04:00 [DBG] Hosting starting
+2025-06-10 21:25:27.512 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 21:25:27.518 -04:00 [INF] Hosting environment: Production
+2025-06-10 21:25:27.520 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 21:25:27.521 -04:00 [DBG] Hosting started
+2025-06-10 21:25:27.530 -04:00 [INF] Starting "Full" backup of pg_demo (postgres)…
+2025-06-10 21:25:27.540 -04:00 [INF] Running full pg_basebackup for pg_demo
+2025-06-10 21:25:27.552 -04:00 [ERR] Backup failed
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'pg_basebackup' with working directory 'C:\Users\sailo\db-backup-cli-live\SentinelVault'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 103
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 21:25:27.574 -04:00 [DBG] Hosting stopping
+2025-06-10 21:25:27.577 -04:00 [INF] Application is shutting down...
+2025-06-10 21:25:27.579 -04:00 [DBG] Hosting stopped
+2025-06-10 21:48:10.705 -04:00 [DBG] Hosting starting
+2025-06-10 21:48:10.789 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 21:48:10.804 -04:00 [INF] Hosting environment: Production
+2025-06-10 21:48:10.810 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 21:48:10.811 -04:00 [DBG] Hosting started
+2025-06-10 21:48:10.820 -04:00 [INF] Starting "Full" backup of pg_demo (postgres)…
+2025-06-10 21:48:10.837 -04:00 [INF] Running full pg_basebackup for pg_demo
+2025-06-10 21:48:10.857 -04:00 [ERR] Backup failed
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'pg_basebackup' with working directory 'C:\Users\sailo\db-backup-cli-live\SentinelVault'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 103
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 21:48:10.891 -04:00 [DBG] Hosting stopping
+2025-06-10 21:48:10.896 -04:00 [INF] Application is shutting down...
+2025-06-10 21:48:10.901 -04:00 [DBG] Hosting stopped
+2025-06-10 21:48:27.108 -04:00 [DBG] Hosting starting
+2025-06-10 21:48:27.180 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 21:48:27.188 -04:00 [INF] Hosting environment: Production
+2025-06-10 21:48:27.193 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 21:48:27.195 -04:00 [DBG] Hosting started
+2025-06-10 21:48:27.203 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 21:48:27.217 -04:00 [INF] Running full pg_basebackup for demo
+2025-06-10 21:48:27.224 -04:00 [ERR] Backup failed
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'pg_basebackup' with working directory 'C:\Users\sailo\db-backup-cli-live\SentinelVault'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 103
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 21:48:27.243 -04:00 [DBG] Hosting stopping
+2025-06-10 21:48:27.245 -04:00 [INF] Application is shutting down...
+2025-06-10 21:48:27.248 -04:00 [DBG] Hosting stopped
+2025-06-10 22:54:46.578 -04:00 [DBG] Hosting starting
+2025-06-10 22:54:46.666 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 22:54:46.674 -04:00 [INF] Hosting environment: Production
+2025-06-10 22:54:46.677 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 22:54:46.679 -04:00 [DBG] Hosting started
+2025-06-10 22:54:46.686 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 22:54:46.695 -04:00 [INF] Running full pg_basebackup for demo inside Docker
+2025-06-10 22:54:47.016 -04:00 [ERR] Backup failed
+System.Exception: pg_basebackup in Docker failed (1): /usr/lib/postgresql/14/bin/pg_basebackup: unrecognized option '--file'
+Try "pg_basebackup --help" for more information.
+
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 111
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 22:54:47.070 -04:00 [DBG] Hosting stopping
+2025-06-10 22:54:47.075 -04:00 [INF] Application is shutting down...
+2025-06-10 22:54:47.077 -04:00 [DBG] Hosting stopped
+2025-06-10 23:11:53.466 -04:00 [DBG] Hosting starting
+2025-06-10 23:11:53.544 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 23:11:53.550 -04:00 [INF] Hosting environment: Production
+2025-06-10 23:11:53.553 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 23:11:53.555 -04:00 [DBG] Hosting started
+2025-06-10 23:11:53.564 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 23:11:53.576 -04:00 [INF] Running full pg_basebackup for demo inside Docker
+2025-06-10 23:11:53.888 -04:00 [ERR] Backup failed
+System.Exception: pg_basebackup in Docker failed (1): /usr/lib/postgresql/14/bin/pg_basebackup: unrecognized option '--D'
+Try "pg_basebackup --help" for more information.
+
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 111
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 23:11:53.923 -04:00 [DBG] Hosting stopping
+2025-06-10 23:11:53.925 -04:00 [INF] Application is shutting down...
+2025-06-10 23:11:53.926 -04:00 [DBG] Hosting stopped
+2025-06-10 23:12:43.194 -04:00 [DBG] Hosting starting
+2025-06-10 23:12:43.269 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 23:12:43.276 -04:00 [INF] Hosting environment: Production
+2025-06-10 23:12:43.279 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 23:12:43.280 -04:00 [DBG] Hosting started
+2025-06-10 23:12:43.288 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 23:12:43.302 -04:00 [INF] Running full pg_basebackup for demo inside Docker
+2025-06-10 23:12:43.550 -04:00 [ERR] Backup failed
+System.Exception: pg_basebackup in Docker failed (1): pg_basebackup: error: missing "=" after "demo" in connection info string
+
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 111
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 23:12:43.586 -04:00 [DBG] Hosting stopping
+2025-06-10 23:12:43.589 -04:00 [INF] Application is shutting down...
+2025-06-10 23:12:43.591 -04:00 [DBG] Hosting stopped
+2025-06-10 23:25:32.060 -04:00 [DBG] Hosting starting
+2025-06-10 23:25:32.142 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 23:25:32.149 -04:00 [INF] Hosting environment: Production
+2025-06-10 23:25:32.151 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 23:25:32.154 -04:00 [DBG] Hosting started
+2025-06-10 23:25:32.163 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 23:25:32.175 -04:00 [INF] Running full pg_basebackup for demo inside Docker
+2025-06-10 23:25:32.836 -04:00 [ERR] Backup failed
+System.Exception: pg_basebackup in Docker failed (1): /usr/lib/postgresql/14/bin/pg_basebackup: unrecognized option '--file'
+Try "pg_basebackup --help" for more information.
+
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 113
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 23:25:32.889 -04:00 [DBG] Hosting stopping
+2025-06-10 23:25:32.892 -04:00 [INF] Application is shutting down...
+2025-06-10 23:25:32.893 -04:00 [DBG] Hosting stopped
+2025-06-10 23:26:17.914 -04:00 [DBG] Hosting starting
+2025-06-10 23:26:17.988 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 23:26:17.996 -04:00 [INF] Hosting environment: Production
+2025-06-10 23:26:17.999 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 23:26:18.000 -04:00 [DBG] Hosting started
+2025-06-10 23:26:18.007 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 23:26:18.017 -04:00 [INF] Running full pg_basebackup for demo inside Docker
+2025-06-10 23:26:18.395 -04:00 [ERR] Backup failed
+System.Exception: pg_basebackup in Docker failed (1): /usr/lib/postgresql/14/bin/pg_basebackup: unrecognized option '--file'
+Try "pg_basebackup --help" for more information.
+
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 113
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 23:26:18.422 -04:00 [DBG] Hosting stopping
+2025-06-10 23:26:18.426 -04:00 [INF] Application is shutting down...
+2025-06-10 23:26:18.430 -04:00 [DBG] Hosting stopped
+2025-06-10 23:31:04.207 -04:00 [DBG] Hosting starting
+2025-06-10 23:31:04.289 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 23:31:04.298 -04:00 [INF] Hosting environment: Production
+2025-06-10 23:31:04.302 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 23:31:04.303 -04:00 [DBG] Hosting started
+2025-06-10 23:31:04.309 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 23:31:04.317 -04:00 [INF] Running full pg_basebackup for demo inside Docker
+2025-06-10 23:31:04.706 -04:00 [ERR] Backup failed
+System.Exception: pg_basebackup in Docker failed (1): /usr/lib/postgresql/14/bin/pg_basebackup: unrecognized option '--D'
+Try "pg_basebackup --help" for more information.
+
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 113
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 23:31:04.759 -04:00 [DBG] Hosting stopping
+2025-06-10 23:31:04.764 -04:00 [INF] Application is shutting down...
+2025-06-10 23:31:04.767 -04:00 [DBG] Hosting stopped
+2025-06-10 23:32:48.620 -04:00 [DBG] Hosting starting
+2025-06-10 23:32:48.703 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 23:32:48.710 -04:00 [INF] Hosting environment: Production
+2025-06-10 23:32:48.716 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 23:32:48.718 -04:00 [DBG] Hosting started
+2025-06-10 23:32:48.728 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 23:32:48.739 -04:00 [INF] Running full pg_basebackup for demo inside Docker
+2025-06-10 23:32:49.130 -04:00 [ERR] Backup failed
+System.Exception: pg_basebackup in Docker failed (1): pg_basebackup: error: missing "=" after "demo" in connection info string
+
+   at DbBackup.Adapters.PostgresAdapter.DumpFullAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Adapters\PostgresAdapter.cs:line 113
+   at DbBackup.Core.BackupOrchestrator.RunAsync(BackupRequest req, CancellationToken ct) in C:\Users\sailo\db-backup-cli-live\SentinelVault\DbBackup.Core\BackupOrchestrator.cs:line 46
+2025-06-10 23:32:49.180 -04:00 [DBG] Hosting stopping
+2025-06-10 23:32:49.182 -04:00 [INF] Application is shutting down...
+2025-06-10 23:32:49.184 -04:00 [DBG] Hosting stopped
+2025-06-10 23:43:53.199 -04:00 [DBG] Hosting starting
+2025-06-10 23:43:53.280 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 23:43:53.287 -04:00 [INF] Hosting environment: Production
+2025-06-10 23:43:53.291 -04:00 [INF] Content root path: C:\Users\sailo\db-backup-cli-live\SentinelVault
+2025-06-10 23:43:53.293 -04:00 [DBG] Hosting started
+2025-06-10 23:43:53.303 -04:00 [INF] Starting "Full" backup of demo (postgres)…
+2025-06-10 23:43:53.316 -04:00 [INF] Running full pg_dump for demo inside Docker
+2025-06-10 23:43:54.439 -04:00 [INF] Backup finished: ./backups\demo_20250611_034354_Full.zst (1136 ms)
+2025-06-10 23:43:54.445 -04:00 [DBG] Hosting stopping
+2025-06-10 23:43:54.449 -04:00 [INF] Application is shutting down...
+2025-06-10 23:43:54.451 -04:00 [DBG] Hosting stopped
