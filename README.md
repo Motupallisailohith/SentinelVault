@@ -45,51 +45,9 @@ SentinelVault is a full-stack database backup orchestration and monitoring syste
 ├── ui/                          ← React + TypeScript Frontend
 └── backups/                     ← Local backup storage volume
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│                             SentinelVault                              │
-│                                                                        │
-│   ┌──────────────────────────────────────────────────────────────┐     │
-│   │                        Frontend (React + Vite)               │     │
-│   │  - Dashboard                                                │     │
-│   │  - Profiles CRUD                                            │     │
-│   │  - Backups Table (full/inc/restore/explain)                 │     │
-│   │  - React Query API calls                                    │     │
-│   └──────────────────────────────────────────────────────────────┘     │
-│                 │                                                       │
-│                 ▼                                                       │
-│   ┌──────────────────────────────────────────────────────────────┐     │
-│   │                  Backend (ASP.NET Core Web API)              │     │
-│   │  - API Controllers                                           │     │
-│   │  - AI Explanation Service (OpenAI GPT)                       │     │
-│   │  - Slack Notification Service                                │     │
-│   │  - Backup Orchestrator (DbBackup.Core)                       │     │
-│   │  - Uses: Sqlite DB for configs                               │     │
-│   └──────────────────────────────────────────────────────────────┘     │
-│                 │                                                       │
-│                 ▼                                                       │
-│   ┌──────────────────────────────────────────────────────────────┐     │
-│   │                  CLI (DbBackup.Cli)                           │     │
-│   │  - Command line interface for backups                         │     │
-│   │  - Uses same BackupOrchestrator                               │     │
-│   └──────────────────────────────────────────────────────────────┘     │
-│                 │                                                       │
-│                 ▼                                                       │
-│   ┌──────────────────────────────────────────────────────────────┐     │
-│   │         Databases                                            │     │
-│   │   - MySQL: application data                                   │     │
-│   │   - PostgreSQL: application data                              │     │
-│   │   - Sqlite: backup profile configurations                     │     │
-│   └──────────────────────────────────────────────────────────────┘     │
-│                 │                                                       │
-│                 ▼                                                       │
-│   ┌──────────────────────────────────────────────────────────────┐     │
-│   │     Cloud Storage (S3 Bucket)                               │     │
-│   │     - Stores backup files                                    │     │
-│   └──────────────────────────────────────────────────────────────┘     │
-│                                                                        │
-│  * All connected via Docker Compose for local orchestration           │
-└────────────────────────────────────────────────────────────────────────┘
 
+Architecture
+![alt text](https://github.com/Motupallisailohith/SentinelVault/blob/main/arc.png)
 ---
 
 ## Running Locally with Docker
